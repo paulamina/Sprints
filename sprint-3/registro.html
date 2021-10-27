@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+<script src="form.js"></script>
+<script src="registro.js"></script>
+
+<body>
+    
+    <header id="cabeceraweb">
+        <img src="img/banner.png">
+    </header>
+
+<h2><br>Formulario de registro para nuevos usuarios<br></h2>
+
+<h5><br>
+    <form action="/action_page.php" id="form-registro">
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="username"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email"><br><br>
+        <label for="pwd">Contraseña:</label><br>
+        <input type="password" id="contrasena"><br>
+        <label for="pwd">Confirmar contraseña:</label><br>
+        <input type="password" id="confirmarContrasena"><br>
+
+        <button type="button" onclick="obtenerUsername(arreglo)"> Obtener </button>
+        <button type="button" onclick="filtrarCorreo(arreglo)"> Filtrar </button>
+        <button type="button" onclick="agregarRegistro()"> Agregar </button>
+        </form> 
+</h5></br>
+    
+
+<h6>Al hacer click en el botón "Enviar" nos autoriza para el tratamiento de sus datos personales segun las regulaciones de la ley colombiana.</h6>
+
+</body>
+</html>

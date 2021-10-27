@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #4C4340;
+    font-weight: bolder;
+    background-image: url(./img/Fondo.png);
+    background-color: #EDEABD;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#cabeceraweb img{ 
+    display:block;
+    margin:auto;
+}
+
+#menu {
+    color: #4C4340;
+}
+
+#mensaje1 {
+    background-color: #DB8E7F;
+    display: flex;
+    align-items: center;
+    color: #4C4340
+    
+}
+
+#mensaje2 {
+    background-color: #B2B1ED;
+    color: #4C4340;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: auto;
+    text-align: center;
+    color: #4C4340;
+}
+
+/*interacciones del menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4c4340;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #A7d1b4;
+  }
+
+
